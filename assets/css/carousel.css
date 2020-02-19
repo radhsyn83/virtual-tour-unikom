@@ -96,9 +96,10 @@
     height: 30px;
     border: none;
     border-radius: 100%;
-    padding-left: 6px;
+    padding-left: 7px;
     line-height: 19px;
-    font-size: small;    color: #fff;
+    font-size: 10px;
+    color: #fff;
     background-color: #999;
     transition: all 0.25s ease;
     -webkit-transform: rotate(270deg);
