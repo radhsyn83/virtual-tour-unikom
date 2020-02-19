@@ -74,7 +74,6 @@
     height: 100%;
 }
 
-
 /*------------------------------- vertical carousel indicators ------------------------------*/
 .carousel-indicators {
     position: absolute;
@@ -90,6 +89,25 @@
     transform: rotate(90deg);
 }
 
+.carousel-indicators-numbers li {
+    text-indent: 0;
+    margin: 0 2px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 100%;
+    padding-left: 6px;
+    line-height: 19px;
+    font-size: small;    color: #fff;
+    background-color: #999;
+    transition: all 0.25s ease;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
 .carousel-indicators li {
     background: #696969;
     border-radius: 50%;
@@ -100,6 +118,7 @@
 
 .carousel-indicators li.active {
     background: white;
+    color: black;
 }
 
 .carousel-indicators li, .carousel-indicators li.active {

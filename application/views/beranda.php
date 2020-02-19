@@ -1,12 +1,12 @@
-<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+<div id="myCarousel" class="carousel slide carousel-fade px-5" data-ride="carousel">
     <div class="row mr-0 h-100">
         <!--Indicator-->
         <div class="col-md-1">
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-                <li data-target="#myCarousel" data-slide-to="3"></li>
+            <ol class="carousel-indicators carousel-indicators-numbers">
+                <li data-target="#myCarousel" data-slide-to="0" class="active">1</li>
+                <li data-target="#myCarousel" data-slide-to="1">2</li>
+                <li data-target="#myCarousel" data-slide-to="2">3</li>
+                <li data-target="#myCarousel" data-slide-to="3">4</li>
             </ol>
         </div>
         <!--content-->

@@ -17,7 +17,7 @@
 	<title>Smart Unikom Tour</title>
 </head>
 <body>
-<div id="container">
+<div id="container" class="px-2">
 	<div id="section1" class="h-100">
 		<div id="header">
 			<div class="row" style="height: 100% !important; margin: 0px">
