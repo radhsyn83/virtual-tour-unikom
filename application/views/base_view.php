@@ -63,11 +63,11 @@
 						<a class='tour' href="#tour">360 Tour</a>
 						<a class='informasi-lantai' href="#informasi-lantai" onclick="showLantai()">Informasi Lantai</a>
 						<a class='acara' href="#acara">Acara</a>
-						<a id="arrow-right" href="#arrow-right"><img src="<?= base_url() ?>assets/images/arrow-right.png"/></a>
+                        <a class='berita' href="#berita">Berita dan Artikel</a>
+                        <a id="arrow-right" href="#arrow-right"><img src="<?= base_url() ?>assets/images/arrow-right.png"/></a>
 					</div>
 					<div class="scrollmenu menu-two animated fadeInRight faster">
 						<a id="arrow-left" href="#arrow-left"><img src="<?= base_url() ?>assets/images/arrow_left.png"/></a>
-						<a class='berita' href="#berita">Berita dan Artikel</a>
 						<a class='kalender' href="#kalender">Kalender Akademik</a>
 						<a class='mobile' href="#versi-mobile">Versi Mobile</a>
 						<a class='kritik' href="#kritik-saran">Kritik dan Saran</a>

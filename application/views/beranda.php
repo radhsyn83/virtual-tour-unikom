@@ -68,47 +68,18 @@
                 <div class="carousel-item">
                     <div class="container h-100 p-0">
                         <div class="row align-items-center h-100">
-                            <div class="col-md-5 col-12 order-md-1 order-2">
-                                <h4>360 Tour</h4>
+                            <div class="col-md-8 col-12 order-md-1 order-2">
+                                <h4>Informasi Lantai</h4>
                                 <p>Jelajahi unikom sekarang hanya dengan <br>
                                     sentuhan jari saja.</p>
-                                <a class="tour" href="#tour" onclick="menuOpen('.tour', 'tour');">Selengkapnya</a></div>
-                            <div class="col-md-7 col-12 order-md-2 order-1">
+                                <a class="informasi-lantai" href="#informasi-lantai" onclick="showLantai();">Selengkapnya</a></div>
+                            <div class="col-md-4 col-12 order-md-2 order-1">
                                 <div class="slider-card container-fluid p-0">
                                     <div class="card-item-content d-flex flex-row flex-nowrap">
-                                        <div class="col-4">
+                                        <div class="col-12">
                                             <div class="card bg-transparent text-white" style="height: 300px">
                                                 <div class="img-bg h-100 w-auto"
-                                                     style="background-image: url(<?= base_url('assets/images/tour/miracle-building-unikom.jpg') ?>);">
-                                                    <div class="img-title card-img-bottom">
-                                                        <span class="card-title">UNIKOM Miracle Building</span>
-                                                        <img class="logo"
-                                                             src="<?= base_url() ?>assets/images/360.png"/>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-4">
-                                            <div class="card bg-transparent text-white" style="height: 300px">
-                                                <div class="img-bg h-100 w-auto"
-                                                     style="background-image: url(<?= base_url('assets/images/tour/smart-building-unikom.jpg') ?>);">
-                                                    <div class="img-title card-img-bottom">
-                                                        <span class="card-title">UNIKOM Smart Building</span>
-                                                        <img class="logo"
-                                                             src="<?= base_url() ?>assets/images/360.png"/>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-4">
-                                            <div class="card bg-transparent text-white" style="height: 300px">
-                                                <div class="img-bg h-100 w-auto"
-                                                     style="background-image: url(<?= base_url('assets/images/tour/pasca-sarjana-unikom-dago.jpg') ?>);">
-                                                    <div class="img-title card-img-bottom">
-                                                        <span class="card-title">UNIKOM Dago</span>
-                                                        <img class="logo"
-                                                             src="<?= base_url() ?>assets/images/360.png"/>
-                                                    </div>
+                                                     style="background-image: url(<?= base_url('assets/images/lantai.png') ?>);background-size: 100%;">
                                                 </div>
                                             </div>
                                         </div>
@@ -122,21 +93,19 @@
                     <div class="container h-100 p-0">
                         <div class="row align-items-center h-100">
                             <div class="col-md-5 col-12 order-md-1 order-2">
-                                <h4>360 Tour</h4>
+                                <h4>Berita dan Artikel</h4>
                                 <p>Jelajahi unikom sekarang hanya dengan <br>
                                     sentuhan jari saja.</p>
-                                <a class="tour" href="#tour" onclick="menuOpen('.tour', 'tour');">Selengkapnya</a></div>
+                                <a class="berita" href="#berita" onclick="menuOpen('.berita', 'berita');">Selengkapnya</a></div>
                             <div class="col-md-7 col-12 order-md-2 order-1">
                                 <div class="slider-card container-fluid p-0">
                                     <div class="card-item-content d-flex flex-row flex-nowrap">
                                         <div class="col-4">
                                             <div class="card bg-transparent text-white" style="height: 300px">
                                                 <div class="img-bg h-100 w-auto"
-                                                     style="background-image: url(<?= base_url('assets/images/tour/miracle-building-unikom.jpg') ?>);">
+                                                     style="background-image: url(<?= base_url('assets/images/berita.png') ?>);">
                                                     <div class="img-title card-img-bottom">
-                                                        <span class="card-title">UNIKOM Miracle Building</span>
-                                                        <img class="logo"
-                                                             src="<?= base_url() ?>assets/images/360.png"/>
+                                                        <span class="card-title">Tindak lanjut penjajakan kerjasama Unikom</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -144,11 +113,9 @@
                                         <div class="col-4">
                                             <div class="card bg-transparent text-white" style="height: 300px">
                                                 <div class="img-bg h-100 w-auto"
-                                                     style="background-image: url(<?= base_url('assets/images/tour/smart-building-unikom.jpg') ?>);">
+                                                     style="background-image: url(<?= base_url('assets/images/berita.png') ?>);">
                                                     <div class="img-title card-img-bottom">
-                                                        <span class="card-title">UNIKOM Smart Building</span>
-                                                        <img class="logo"
-                                                             src="<?= base_url() ?>assets/images/360.png"/>
+                                                        <span class="card-title">Tindak lanjut penjajakan kerjasama Unikom</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -156,11 +123,9 @@
                                         <div class="col-4">
                                             <div class="card bg-transparent text-white" style="height: 300px">
                                                 <div class="img-bg h-100 w-auto"
-                                                     style="background-image: url(<?= base_url('assets/images/tour/pasca-sarjana-unikom-dago.jpg') ?>);">
+                                                     style="background-image: url(<?= base_url('assets/images/berita.png') ?>);">
                                                     <div class="img-title card-img-bottom">
-                                                        <span class="card-title">UNIKOM Dago</span>
-                                                        <img class="logo"
-                                                             src="<?= base_url() ?>assets/images/360.png"/>
+                                                        <span class="card-title">Tindak lanjut penjajakan kerjasama Unikom</span>
                                                     </div>
                                                 </div>
                                             </div>
