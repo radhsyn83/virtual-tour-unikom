@@ -1,5 +1,11 @@
 <div id="menu-content" class="container h-100 p-0 animated fadeIn">
 	<div class="row align-items-center h-100">
+        <div class="col-6">
+        </div>
+        <div class="col-6" style="text-align: end">
+                <input type="text" class="search-bg " placeholder="Cari...">
+                <a href="#" style="color: white;"><i class="fa fa-search"></i></a>
+        </div>
 		<div class="col-md-12 col-12 order-md-2 order-1">
 			<div class="slider-card container-fluid p-0">
 				<div class="card-item-content">

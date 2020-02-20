@@ -13,6 +13,8 @@
 	<link href='<?= base_url("assets/css/style.css") ?>' rel="stylesheet">
 	<!-- Carousel CSS-->
 	<link href='<?= base_url("assets/css/carousel.css") ?>' rel="stylesheet">
+    <!-- FontAwasome CSS-->
+    <link href='<?= base_url("assets/css/all.css") ?>' rel="stylesheet">
 
 	<title>Smart Unikom Tour</title>
 </head>
@@ -100,6 +102,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
 		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
 		crossorigin="anonymous"></script>
+<script src='<?= base_url("assets/js/all.js") ?>'></script>
 <script src='<?= base_url("assets/js/bootstrap.min.js") ?>'></script>
 <script src='<?= base_url("assets/js/main.js") ?>'></script>
 <script>
