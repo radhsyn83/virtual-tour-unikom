@@ -190,6 +190,7 @@
         $('.tour').removeClass("active");
         $('.informasi-lantai').removeClass("active");
         $('.berita').removeClass("active");
+        $('.acara').removeClass("active");
         $('.kalender').removeClass("active");
         $('.mobile').removeClass("active");
         $('.kritik').removeClass("active");
