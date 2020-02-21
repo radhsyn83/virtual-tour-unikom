@@ -11,6 +11,12 @@ body::-webkit-scrollbar, html::-webkit-scrollbar {
 	display: none;
 }
 
+.body-kritik {
+	background: #5a6268;
+	padding: 20px;
+	border-radius: 10px;
+}
+
 .search-bg {
 	background: transparent;
 	border: none;
