@@ -82,7 +82,7 @@
                         <div class="col-8 header-modal">
                             <img onclick="dismissAcaraModal()" class="back-btn align-content-center"
                                  src="<?= base_url() ?>assets/images/arrow-back.png"/>
-                            <span id="modal-title" class="title">BERITA DAN ARTIKEL</span>
+                            <span id="modal-title" class="title">ACARA</span>
                         </div>
 
                     </div>
