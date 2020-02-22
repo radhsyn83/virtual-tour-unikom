@@ -1,13 +1,23 @@
 <div id="menu-content" class="container h-100 p-0  animated fadeIn">
-	<div class="row align-items-center h-100">
-		<div class="col-8">
+    <div class="row align-items-center h-100 kritik-chart">
+        <div class="col-8">
             <h2 class="text-white">KRITIK DAN SARAN</h2>
             <h5 class="text-white">Kirimkan kritik dan saran anda untuk unikom semakin maju.</h5>
-		</div>
+            <a onclick="toggleView()" href="#tour" class="btn btn-primary">Beri Kritik dan Saran</a>
+        </div>
+        <div class="col-4">
+            <img src="<?= base_url() ?>assets/images/img-kritik.png" width="100%"/>
+        </div>
+    </div>
+    <div class="row align-items-center h-100 kritik-form">
+        <div class="col-8">
+            <h2 class="text-white">KRITIK DAN SARAN</h2>
+            <h5 class="text-white">Kirimkan kritik dan saran anda untuk unikom semakin maju.</h5>
+        </div>
         <div class="col-4">
             <div class="d-flex flex-column shadow text-center body-kritik">
                 <h6 class="text-white">KRITIK DAN SARAN ANDA TERHADAP KEBERSIHAN UNIKOM</h6>
-                <hr style="width: 100%; color: white; height: 1px; background-color: white;" />
+                <hr style="width: 100%; color: white; height: 1px; background-color: white;"/>
                 <form>
                     <div class="form-group">
                         <div class="form-row">
@@ -50,12 +60,22 @@
                         </div>
                     </div>
                     <div class="form-group m-0">
-                        <button type="button" class="btn btn-primary btn-sm w-100">Kirim</button>
                     </div>
                 </form>
+                <button type="button" onclick="toggleView()" class="btn btn-primary btn-sm w-100">Kirim</button>
+
             </div>
         </div>
-	</div>
+    </div>
 </div>
+
+<script>
+    $(".kritik-form").hide()
+
+    function toggleView() {
+        $(".kritik-chart").toggle()
+        $(".kritik-form").toggle()
+    }
+</script>
 
 

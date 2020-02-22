@@ -27,7 +27,7 @@
 							</div>
 							<br>
 							<div class="see-more col-md-5 col-12 order-md-1 order-2">
-								<a href="#tour" onclick="menuOpen('.tour', 'tour');">Selengkapnya</a>
+								<a href="#" onclick="showDetail()">Selengkapnya</a>
 							</div>
 						</div>
 					</div>
@@ -52,7 +52,7 @@
 							</div>
 							<br>
 							<div class="see-more col-md-5 col-12 order-md-1 order-2">
-								<a href="#tour" onclick="menuOpen('.tour', 'tour');">Selengkapnya</a>
+								<a href="#" onclick="showDetail()">Selengkapnya</a>
 							</div>
 						</div>
 					</div>
@@ -104,7 +104,7 @@
                                 </div>
                                 <br>
                                 <div class="see-more col-md-5 col-12 order-md-1 order-2">
-                                    <a href="#tour" onclick="menuOpen('.tour', 'tour');">Selengkapnya</a>
+                                    <a href="#" onclick="showDetail()">Selengkapnya</a>
                                 </div>
                             </div>
                         </div>
@@ -128,7 +128,7 @@
                                 </div>
                                 <br>
                                 <div class="see-more col-md-5 col-12 order-md-1 order-2">
-                                    <a href="#tour" onclick="menuOpen('.tour', 'tour');">Selengkapnya</a>
+                                    <a href="#" onclick="showDetail()">Selengkapnya</a>
                                 </div>
                             </div>
                         </div>
@@ -152,7 +152,7 @@
                                 </div>
                                 <br>
                                 <div class="see-more col-md-5 col-12 order-md-1 order-2">
-                                    <a href="#tour" onclick="menuOpen('.tour', 'tour');">Selengkapnya</a>
+                                    <a href="#" onclick="showDetail()">Selengkapnya</a>
                                 </div>
                             </div>
                         </div>
@@ -176,7 +176,7 @@
                                 </div>
                                 <br>
                                 <div class="see-more col-md-5 col-12 order-md-1 order-2">
-                                    <a href="#tour" onclick="menuOpen('.tour', 'tour');">Selengkapnya</a>
+                                    <a href="#" onclick="showDetail()">Selengkapnya</a>
                                 </div>
                             </div>
                         </div>
@@ -200,7 +200,7 @@
                                 </div>
                                 <br>
                                 <div class="see-more col-md-5 col-12 order-md-1 order-2">
-                                    <a href="#tour" onclick="menuOpen('.tour', 'tour');">Selengkapnya</a>
+                                    <a href="#" onclick="showDetail()">Selengkapnya</a>
                                 </div>
                             </div>
                         </div>
@@ -224,7 +224,7 @@
                                 </div>
                                 <br>
                                 <div class="see-more col-md-5 col-12 order-md-1 order-2">
-                                    <a href="#tour" onclick="menuOpen('.tour', 'tour');">Selengkapnya</a>
+                                    <a href="#" onclick="showDetail()">Selengkapnya</a>
                                 </div>
                             </div>
                         </div>
@@ -248,7 +248,7 @@
                                 </div>
                                 <br>
                                 <div class="see-more col-md-5 col-12 order-md-1 order-2">
-                                    <a href="#tour" onclick="menuOpen('.tour', 'tour');">Selengkapnya</a>
+                                    <a href="#" onclick="showDetail()">Selengkapnya</a>
                                 </div>
                             </div>
                         </div>
@@ -272,7 +272,7 @@
                                 </div>
                                 <br>
                                 <div class="see-more col-md-5 col-12 order-md-1 order-2">
-                                    <a href="#tour" onclick="menuOpen('.tour', 'tour');">Selengkapnya</a>
+                                    <a href="#" onclick="showDetail()">Selengkapnya</a>
                                 </div>
                             </div>
                         </div>
@@ -296,7 +296,52 @@
                                 </div>
                                 <br>
                                 <div class="see-more col-md-5 col-12 order-md-1 order-2">
-                                    <a href="#tour" onclick="menuOpen('.tour', 'tour');">Selengkapnya</a>
+                                    <a href="#" onclick="showDetail()">Selengkapnya</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ModalDetail -->
+<div class="modal fade" id="detailModal" tabindex="-1" role="dialog" aria-labelledby="menuModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content modal-option">
+            <div id="container">
+                <div id="header">
+                    <div class="row" style="height: 100% !important; margin: 0px">
+                        <div class="col-8 header-modal">
+                            <img onclick="dismissDetailModal()" class="back-btn align-content-center"
+                                 src="<?= base_url() ?>assets/images/arrow-back.png"/>
+                            <span id="modal-title" class="title">Berita</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-content-3d slider-card">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-2">
+                                <img class="w-100" src="<?= base_url() ?>assets/images/berita.png"/>
+                            </div>
+                            <div class="col-8 offset-2">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h4 class="text-white">Judul</h4>
+                                        <span class="text-white">Tindak Lanjut Penjajakan Kerjasama : Unikom Bangun Kolaborasi dengan SEGi University and Colleges.</span>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4 class="text-white">Media Unikom</h4>
+                                        <span class="text-white">8 November 2019 8 AM</span>
+                                    </div>
+                                    <div class="col-12 mt-5">
+                                        <h4 class="text-white">Deskripsi</h4>
+                                        <span class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -314,6 +359,15 @@
 
     function showBeritaModal(){
         $('#beritaModal').modal('show');
+    }
+
+
+    function dismissDetailModal() {
+        $('#detailModal').modal('hide');
+    };
+
+    function showDetail() {
+        $('#detailModal').modal('show');
     }
 </script>
 
